@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] var0) throws Exception {
+    public static void main(String[] args) {
         LRUCache cache = new LRUCache(4);
         cache.put(1, 10);
         cache.put(2, 20);
